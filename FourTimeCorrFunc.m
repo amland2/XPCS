@@ -5,8 +5,8 @@ framespacing=TwoTimeInfo.framespacing;
 WaitingTime=(1:1:size(C,1)).*framespacing;
 
 gpu_C=gpuarray(C);
-    for index_WaitingTime
-        A
+    for index_WaitingTime=1:size(C,1)
+        
     end
 %end
 
